@@ -1,0 +1,13 @@
+##
+# This file contains all of the configuration keys used by the JRuby
+# plugin. Simply copy them into your main application configuration.
+#
+
+###########################################################################
+# DELEGATE
+###########################################################################
+
+# !! This can be an absolute path, or a filename; if only a filename is
+# specified, it will be searched for in the same folder as this file, and
+# then the current working directory.
+delegate.JRubyDelegate.script_pathname: config/delegates.rb
